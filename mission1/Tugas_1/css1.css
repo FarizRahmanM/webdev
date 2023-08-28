@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .color-block {
+    
+    position: relative;
+  }
+  
+  .blue-background {
+    background-color: #000080;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: var(--blue-top, 0px);
+    bottom: var(--blue-bottom,50px);
+    left: var(--blue-left, 0px);
+    right: var(--blue-right, 0px);
+  }
+  
+  .brown-background {
+    background-color: #FFFF00;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: var(--brown-top, 300px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 0);
+    right: var(--brown-right, 0);
+  }
+  
+  .black-background {
+    background-color: #000000;
+    width: 1135px;
+    height: 50px;
+    position: absolute;
+    top: var(--black-top, 0);
+    bottom: var(--black-bottom, 0);
+    left: var(--black-left, 400px);
+    right: var(--black-right, 0);
+  }
+  
+  .pink-background {
+    background-color: #ffb6c1;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: var(--pink-top, 50px);
+    bottom: var(--pink-bottom, 0);
+    left: var(--pink-left,100);
+    right: var(--pink-right, 0);
+  }
+  
+  .red-background {
+    background-color: #FF0000;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: var(--brown-top, 400px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 0);
+    right: var(--brown-right, 0);
+  }
+  
+  .yellow-background {
+    background-color: #008000;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: var(--brown-top, 500px);
+    bottom: var(--brown-bottom,0px);
+    left: var(--brown-left, 0);
+    right: var(--brown-right, 0);
+  }
+  
+  .green-background {
+    background-color: #5C4033;
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    top: var(--brown-top, 50px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 400px);
+    right: var(--brown-right, 0);
+  }
+
+  .purple-background {
+    background-color: #800080;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: var(--brown-top, 300px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 400px);
+    right: var(--brown-right, 0);
+  }
+
+  .orange-background {
+    background-color: #FFA500;
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    top: var(--brown-top, 500px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 400px);
+    right: var(--brown-right, 0);
+  }
+
+  .birumuda-background {
+    background-color: #0000FF ;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: var(--brown-top, 200px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 100);
+    right: var(--brown-right, 0);
+  }
+
+  .grey-background {
+    background-color: #808080;
+    width: 585px;
+    height: 200px;
+    position: absolute;
+    top: var(--brown-top, 400px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 950px);
+    right: var(--brown-right, 0);
+  }
+
+  .white-background {
+    background-color: #ffffff;
+    width: 150px;
+    height: 350px;
+    position: absolute;
+    top: var(--brown-top, 50px);
+    bottom: var(--brown-bottom, 0);
+    left: var(--brown-left, 950px);
+    right: var(--brown-right, 0);
+  }
+
+  /* Global CSS untuk mengatur warna huruf dan ukuran teks */
+  .ukuran {
+  font-family: Arial, sans-serif; /* Ganti dengan font yang Anda inginkan */
+  font-size: 45px; /* Ukuran teks default */
+  
+}
+
+.putih {
+
+  color: #ffffff; /* Warna huruf untuk judul h1 */
+}
+
+.hitam {
+  
+  color: #000000; /* Warna huruf untuk judul h2 */
+}
+
+
+  

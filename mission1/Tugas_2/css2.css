@@ -1,0 +1,126 @@
+.container-top{
+    background-color: #f3f4f6;
+}
+
+.container-bottom{
+    background-color: #ffffff;
+    padding-top: 40px;
+}
+
+.custom-container{
+    margin-left: 190px;
+    margin-right: 190px;
+    font-family: "Times New Roman", serif;
+}
+
+.selamat{
+    font-family: "Times New Roman", serif;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.selamat h1{
+    color: #38404F;
+    font-size: 55px;
+}
+
+.selamat span{
+    color: #DE3F1C;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.text-format{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servis{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.servis h4{
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.teks{
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.teks-1{
+    font-size: 22px;
+}
+
+.teks-2{
+    font-size: 18px;
+}
+
+.mulai{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 315px;
+    margin-right: 315px;
+}
+
+.mulai input{
+    width: 470px;
+    height: 52px;
+}
+
+.mulai button{
+    color: white;
+    background-color: #65D777;
+    width: 110px;
+}
+
+.mulai button:hover{
+    color: white;
+    background-color: #43a151;
+}
+
+.intruksi{
+    padding-top: 32px;
+    margin-bottom: 16px;
+}
+
+.intruksi h2{
+    color: #091836;
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.formulir{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.formulir1{
+    padding: 32px;
+    background-color: #F3F4F6;
+    border-radius: 3px;
+    width: 590px;
+    height: 195px;
+}
+
+.text-bold p{
+    color: #38404F;
+    font-weight: bold;
+}
+
+.formulir3 button{
+    height: 52px;
+    color: white;
+    background-color: #65D777;
+}
+
+.formulir3 button:hover{
+    color: white;
+    background-color: #43a151;
+}
