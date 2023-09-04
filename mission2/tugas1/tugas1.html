@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOKO ONLINE</title>
+    <link rel="stylesheet" type="text/css" href="tugas1.css">
+</head>
+<body>
+    <header>
+        <h1>TOKO ONLINE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="produk">
+            <img src="asset/rak.jpeg" alt="Produk 1">
+            <h2>Produk 1</h2>
+            <p>Harga: Rp100.000</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(1)">-</button>
+                <span id="jumlah1">0</span>
+                <button class="tambah" onclick="tambahProduk(1)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(1)">Beli</button>
+        </section>
+
+        <section class="produk">
+            <img src="asset/meja.jpeg" alt="Produk 2">
+            <h2>Produk 2</h2>
+            <p>Harga: Rp150.000</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(2)">-</button>
+                <span id="jumlah2">0</span>
+                <button class="tambah" onclick="tambahProduk(2)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(2)">Beli</button>
+        </section>
+
+        <section class="produk">
+            <img src="asset/kursi.jpg" alt="Produk 3">
+            <h2>Produk 3</h2>
+            <p>Harga: Rp120.000</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(3)">-</button>
+                <span id="jumlah3">0</span>
+                <button class="tambah" onclick="tambahProduk(3)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(3)">Beli</button>
+        </section>
+        
+        <section class="produk">
+            <img src="asset/jam.jpeg" alt="Produk 4">
+            <h2>Produk 4</h2>
+            <p>Harga: Rp80.000</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(4)">-</button>
+                <span id="jumlah4">0</span>
+                <button class="tambah" onclick="tambahProduk(4)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(4)">Beli</button>
+        </section>
+
+        <section class="produk">
+            <img src="asset/pulpen.jpg" alt="Produk 5">
+            <h2>Produk 5</h2>
+            <p>Harga: Rp2.000</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(5)">-</button>
+                <span id="jumlah5">0</span>
+                <button class="tambah" onclick="tambahProduk(5)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(5)">Beli</button>
+        </section>
+
+        <section class="produk">
+            <img src="asset/pensil.jpg" alt="Produk 6">
+            <h2>Produk 6</h2>
+            <p>Harga: Rp1.500</p>
+            <div class="aksi">
+                <button class="kurang" onclick="kurangiProduk(6)">-</button>
+                <span id="jumlah6">0</span>
+                <button class="tambah" onclick="tambahProduk(6)">+</button>
+            </div>
+            <button class="beli" onclick="tambahKeKeranjang(6)">Beli</button>
+        </section>
+        
+    </main>
+
+    <aside class="keranjang">
+        <h2>Keranjang</h2>
+        <ul id="daftarKeranjang"></ul>
+        <p>Total Harga: <span id="totalHarga">0</span></p>
+    </aside>
+
+    
+
+    <footer>
+        <p>&copy; 2023 TOKO ONLINE</p>
+    </footer>
+
+    <script src="tugas1.js"></script>
+</body>
+
+</html>
